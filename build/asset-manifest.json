@@ -1,18 +1,32 @@
 {
   "files": {
-    "main.css": "/marriot-hotels/static/css/main.b369eb24.css",
-    "main.js": "/marriot-hotels/static/js/main.6b4bbcb9.js",
-    "static/js/787.20e1b21f.chunk.js": "/marriot-hotels/static/js/787.20e1b21f.chunk.js",
-    "static/media/home-image-text.png": "/marriot-hotels/static/media/home-image-text.35d9b60746c7f20654f8.png",
-    "static/media/home-image.png": "/marriot-hotels/static/media/home-image.6abe4918595f2f787e09.png",
-    "static/media/marriot-image.png": "/marriot-hotels/static/media/marriot-image.63b60fcf4a20c950c4e8.png",
-    "index.html": "/marriot-hotels/index.html",
-    "main.b369eb24.css.map": "/marriot-hotels/static/css/main.b369eb24.css.map",
-    "main.6b4bbcb9.js.map": "/marriot-hotels/static/js/main.6b4bbcb9.js.map",
-    "787.20e1b21f.chunk.js.map": "/marriot-hotels/static/js/787.20e1b21f.chunk.js.map"
+    "main.css": "/hotel-booking/static/css/main.75dd26e5.css",
+    "main.js": "/hotel-booking/static/js/main.82589746.js",
+    "static/js/787.20e1b21f.chunk.js": "/hotel-booking/static/js/787.20e1b21f.chunk.js",
+    "static/media/home-image-french.png": "/hotel-booking/static/media/home-image-french.4756d20ec3f5f7666c00.png",
+    "static/media/home-image-text-2.png": "/hotel-booking/static/media/home-image-text-2.9748c6077f4db51ae326.png",
+    "static/media/home-image.png": "/hotel-booking/static/media/home-image.6abe4918595f2f787e09.png",
+    "static/media/home-image-french-mobile.png": "/hotel-booking/static/media/home-image-french-mobile.34241f57234a20988114.png",
+    "static/media/home-image-mobile.png": "/hotel-booking/static/media/home-image-mobile.305b1d841fd3742b6dfc.png",
+    "static/media/marriot-image.png": "/hotel-booking/static/media/marriot-image.63b60fcf4a20c950c4e8.png",
+    "static/media/image-6.png": "/hotel-booking/static/media/image-6.8396c0c565f8686a8782.png",
+    "static/media/image-2.png": "/hotel-booking/static/media/image-2.300d96b54c758ffaf7d6.png",
+    "static/media/image-1.png": "/hotel-booking/static/media/image-1.fec86bf6b5e30ee47c09.png",
+    "static/media/image-4.png": "/hotel-booking/static/media/image-4.8eeb8ffb232b091bff5b.png",
+    "static/media/image-5.png": "/hotel-booking/static/media/image-5.3180bdc38fa1fbfdcb9b.png",
+    "static/media/image-3.png": "/hotel-booking/static/media/image-3.d8e54ec0c3c7764097e1.png",
+    "static/media/dinner.png": "/hotel-booking/static/media/dinner.5e5077c4449f7680bcea.png",
+    "static/media/parking.png": "/hotel-booking/static/media/parking.72b1715279797570012c.png",
+    "static/media/wifi.png": "/hotel-booking/static/media/wifi.f50b2a2faaf9a059e3c4.png",
+    "static/media/ac.png": "/hotel-booking/static/media/ac.551879eadc2f32c45ee3.png",
+    "index.html": "/hotel-booking/index.html",
+    "static/media/getFetch.cjs": "/hotel-booking/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.75dd26e5.css.map": "/hotel-booking/static/css/main.75dd26e5.css.map",
+    "main.82589746.js.map": "/hotel-booking/static/js/main.82589746.js.map",
+    "787.20e1b21f.chunk.js.map": "/hotel-booking/static/js/787.20e1b21f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b369eb24.css",
-    "static/js/main.6b4bbcb9.js"
+    "static/css/main.75dd26e5.css",
+    "static/js/main.82589746.js"
   ]
 }
