@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
-import homeImage from '../assets/home-image.png'
 import './ReceiptScreen.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function ReceiptScreen() {
     const roomInfo = JSON.parse(window.localStorage.getItem('selectedRoom'))
@@ -11,6 +11,7 @@ export default function ReceiptScreen() {
     const [renderDiv, setRenderDiv] = React.useState(<div></div>);
     const [showButton, setShowButton] = React.useState(true);
     const { t } = useTranslation(); 
+    const navigate = useNavigate()
 
     return (
         <div className='page-body'>
@@ -36,7 +37,7 @@ export default function ReceiptScreen() {
                     setRenderDiv(<ShowFullDetails person={person} roomInfo={roomInfo}/>)
                     setShowButton(false)
                 } else {
-                    window.location.href = '/'
+                    navigate('/Home')
                 }
             }}>
                 {showButton ? 'Show Full Details' : 'Back to Home'}
