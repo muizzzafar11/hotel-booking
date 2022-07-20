@@ -28,6 +28,8 @@ export default function BookingOne() {
     const { t } = useTranslation();
     return (
         <div>
+            <h1 className='text-center mb-3'>{t('room_spec')}</h1>
+            <h3 className='text-center mb-5'>(Step 1 of 3)</h3>
             <FormControl fullWidth className='mb-4'>
                 <InputLabel id="demo-simple-select-label">{t('floors')}</InputLabel>
                 <Select

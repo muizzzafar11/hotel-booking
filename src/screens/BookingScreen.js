@@ -150,6 +150,7 @@ function BankCardModalContent() {
     return (
         <div style={{minWidth: 250}}>
             <h1 className='mb-3'>{t('credit_card_info')}</h1>
+            <h4 className='text-center mb-3'>(Step 3 of 3)</h4>
             <div className="mb-3">
                 <label htmlFor="name">{t('full_name')}</label>
                 <input onInput={e => {window.localStorage.setItem('ccName', e.target.value)}} type="text" className="form-control w-100" id="name" placeholder={t('enter_name')} required/>

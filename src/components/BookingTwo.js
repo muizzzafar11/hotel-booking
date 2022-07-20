@@ -5,7 +5,8 @@ export default function BookingTwo() {
     const { t } = useTranslation();
     return (
         <div>
-           <h1 className='text-center'>{t('personal_information')}</h1>
+           <h1 className='text-center mb-3'>{t('personal_information')}</h1>
+           <h3 className='text-center mb-5'>(Step 2 of 3)</h3>
             <div className='mt-5'>
                 <input type="text" onInput={e => {window.localStorage.setItem('Name', e.target.value)}} aria-label="Name" placeholder={t('name')} className="form-control px-4 py-3 mt-3" value={window.localStorage.getItem('Name') || undefined}></input>
                 <input type="text" onInput={e => {window.localStorage.setItem('Email', e.target.value)}} aria-label="Email" placeholder={t('email')} className="form-control px-4 py-3 mt-3" value={window.localStorage.getItem('Email') || undefined}></input>
