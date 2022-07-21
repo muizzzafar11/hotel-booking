@@ -100,13 +100,13 @@ export default function BookingScreen() {
                             setRenderDiv(<BookingTwo />)
                             setRenderStage(2)
                         } else {
-                            alert('Please fill all the fields correctly')
+                            alert('Please fill all the fields correctly. All fields are required to proceed forward')
                         }
                     } else {
                         if(checkValidity(2))
                             handleOpen();
                         else
-                            alert('Please fill all the fields correctly')
+                            alert('Please fill all the fields correctly. All fields are required to proceed forward')
                     }
                 }}>{t('next')}</button>
                 </div>
